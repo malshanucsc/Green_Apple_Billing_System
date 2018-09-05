@@ -27,12 +27,262 @@ public class Restaurant extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        jLabel2 = new javax.swing.JLabel();
+        jPanel2 = new javax.swing.JPanel();
+        jlblTax3 = new javax.swing.JLabel();
+        jTextField8 = new javax.swing.JTextField();
+        jlblTax6 = new javax.swing.JLabel();
+        jlblTax7 = new javax.swing.JLabel();
+        jComboBox2 = new javax.swing.JComboBox();
+        jlblSubTotal3 = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jlblSubTotal2 = new javax.swing.JLabel();
+        jlblTax2 = new javax.swing.JLabel();
+        jTextField7 = new javax.swing.JTextField();
+        jlblTax4 = new javax.swing.JLabel();
+        jComboBox1 = new javax.swing.JComboBox();
+        jlblTax5 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
+        jlblTax1 = new javax.swing.JLabel();
+        jTextField4 = new javax.swing.JTextField();
+        jTextField5 = new javax.swing.JTextField();
+        jTextField6 = new javax.swing.JTextField();
+        jlblTotal1 = new javax.swing.JLabel();
+        jlblSubTotal1 = new javax.swing.JLabel();
+        jPanel5 = new javax.swing.JPanel();
+        jTextField1 = new javax.swing.JTextField();
+        jTextField2 = new javax.swing.JTextField();
+        jTextField3 = new javax.swing.JTextField();
+        jlblTax = new javax.swing.JLabel();
+        jlblSubTotal = new javax.swing.JLabel();
+        jlblTotal = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        jTextArea1 = new javax.swing.JTextArea();
+        jPanel7 = new javax.swing.JPanel();
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jPanel1.setBackground(new java.awt.Color(153, 153, 255));
+        jPanel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+
+        jLabel1.setFont(new java.awt.Font("Tahoma", 1, 66)); // NOI18N
+        jLabel1.setForeground(new java.awt.Color(255, 255, 255));
+        jLabel1.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel1.setText("Green Apple Restaurant");
+        jLabel1.setToolTipText("");
+        jLabel1.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(51, 51, 255), 3));
+
+        jLabel3.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Restaurant/logonewest.jpg"))); // NOI18N
+        jLabel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 255, 102), 8));
+
+        jLabel2.setHorizontalAlignment(javax.swing.SwingConstants.CENTER);
+        jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Restaurant/logonewest.jpg"))); // NOI18N
+        jLabel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 255, 102), 8));
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(157, 157, 157)
+                .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(223, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(6, 6, 6)
+                        .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(24, 24, 24))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addComponent(jLabel1)
+                .addGap(0, 0, Short.MAX_VALUE))
+        );
+
+        getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 1390, 120));
+
+        jPanel2.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+        jPanel2.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jlblTax3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax3.setText("Drinks");
+        jPanel2.add(jlblTax3, new org.netbeans.lib.awtextra.AbsoluteConstraints(206, 21, -1, -1));
+
+        jTextField8.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel2.add(jTextField8, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, 70, -1));
+
+        jlblTax6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax6.setText("Amount");
+        jPanel2.add(jlblTax6, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 80, -1, -1));
+
+        jlblTax7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax7.setText("Item");
+        jPanel2.add(jlblTax7, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 81, -1, -1));
+
+        jComboBox2.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel2.add(jComboBox2, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
+
+        jlblSubTotal3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblSubTotal3.setText("Sub Total");
+        jPanel2.add(jlblSubTotal3, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 200, -1, -1));
+
+        getContentPane().add(jPanel2, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 130, 420, 250));
+
+        jPanel3.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+        jPanel3.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jlblSubTotal2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblSubTotal2.setText("Sub Total");
+        jPanel3.add(jlblSubTotal2, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 200, -1, -1));
+
+        jlblTax2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax2.setText("Item");
+        jPanel3.add(jlblTax2, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 81, -1, -1));
+
+        jTextField7.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel3.add(jTextField7, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 120, 70, -1));
+
+        jlblTax4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax4.setText("Meals");
+        jPanel3.add(jlblTax4, new org.netbeans.lib.awtextra.AbsoluteConstraints(191, 21, -1, -1));
+
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jPanel3.add(jComboBox1, new org.netbeans.lib.awtextra.AbsoluteConstraints(50, 130, -1, -1));
+
+        jlblTax5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax5.setText("Amount");
+        jPanel3.add(jlblTax5, new org.netbeans.lib.awtextra.AbsoluteConstraints(300, 80, -1, -1));
+
+        getContentPane().add(jPanel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 130, 400, 250));
+
+        jPanel4.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+        jPanel4.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jlblTax1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax1.setText("Cost of Meal");
+        jPanel4.add(jlblTax1, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 24, -1, -1));
+
+        jTextField4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel4.add(jTextField4, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 20, 123, -1));
+
+        jTextField5.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel4.add(jTextField5, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 80, 123, -1));
+
+        jTextField6.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel4.add(jTextField6, new org.netbeans.lib.awtextra.AbsoluteConstraints(250, 130, 123, -1));
+
+        jlblTotal1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTotal1.setText("Total Cost of Made");
+        jPanel4.add(jlblTotal1, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 134, -1, -1));
+
+        jlblSubTotal1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblSubTotal1.setText("Cost of Drinks");
+        jPanel4.add(jlblSubTotal1, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 78, -1, -1));
+
+        getContentPane().add(jPanel4, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 390, 400, 190));
+
+        jPanel5.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+        jPanel5.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jTextField1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel5.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 20, 123, -1));
+
+        jTextField2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel5.add(jTextField2, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 130, 123, -1));
+
+        jTextField3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jPanel5.add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(260, 70, 123, -1));
+
+        jlblTax.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTax.setText("Tax");
+        jPanel5.add(jlblTax, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 24, -1, -1));
+
+        jlblSubTotal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblSubTotal.setText("Sub Total");
+        jPanel5.add(jlblSubTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 78, -1, -1));
+
+        jlblTotal.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jlblTotal.setText("Total");
+        jPanel5.add(jlblTotal, new org.netbeans.lib.awtextra.AbsoluteConstraints(46, 134, -1, -1));
+
+        getContentPane().add(jPanel5, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 390, 420, 190));
+
+        jPanel6.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+
+        jTextArea1.setColumns(20);
+        jTextArea1.setRows(5);
+        jScrollPane1.setViewportView(jTextArea1);
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 310, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 498, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+
+        getContentPane().add(jPanel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(880, 130, 350, 540));
+
+        jPanel7.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(204, 204, 255), 10));
+        jPanel7.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+
+        jButton1.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton1.setText("Receipt");
+        jPanel7.add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(225, 21, 192, -1));
+
+        jButton2.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton2.setText("Total");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
+        jPanel7.add(jButton2, new org.netbeans.lib.awtextra.AbsoluteConstraints(38, 21, 169, -1));
+
+        jButton3.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton3.setText("Exit");
+        jPanel7.add(jButton3, new org.netbeans.lib.awtextra.AbsoluteConstraints(599, 21, 160, -1));
+
+        jButton4.setFont(new java.awt.Font("Tahoma", 1, 18)); // NOI18N
+        jButton4.setText("Reset");
+        jPanel7.add(jButton4, new org.netbeans.lib.awtextra.AbsoluteConstraints(435, 21, 137, -1));
+
+        getContentPane().add(jPanel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 600, 850, 70));
 
         pack();
         setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -70,5 +320,45 @@ public class Restaurant extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JComboBox jComboBox1;
+    private javax.swing.JComboBox jComboBox2;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
+    private javax.swing.JPanel jPanel5;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JTextArea jTextArea1;
+    private javax.swing.JTextField jTextField1;
+    private javax.swing.JTextField jTextField2;
+    private javax.swing.JTextField jTextField3;
+    private javax.swing.JTextField jTextField4;
+    private javax.swing.JTextField jTextField5;
+    private javax.swing.JTextField jTextField6;
+    private javax.swing.JTextField jTextField7;
+    private javax.swing.JTextField jTextField8;
+    private javax.swing.JLabel jlblSubTotal;
+    private javax.swing.JLabel jlblSubTotal1;
+    private javax.swing.JLabel jlblSubTotal2;
+    private javax.swing.JLabel jlblSubTotal3;
+    private javax.swing.JLabel jlblTax;
+    private javax.swing.JLabel jlblTax1;
+    private javax.swing.JLabel jlblTax2;
+    private javax.swing.JLabel jlblTax3;
+    private javax.swing.JLabel jlblTax4;
+    private javax.swing.JLabel jlblTax5;
+    private javax.swing.JLabel jlblTax6;
+    private javax.swing.JLabel jlblTax7;
+    private javax.swing.JLabel jlblTotal;
+    private javax.swing.JLabel jlblTotal1;
     // End of variables declaration//GEN-END:variables
 }
